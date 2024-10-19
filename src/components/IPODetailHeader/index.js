@@ -1,0 +1,1 @@
+export {IPODetailHeader} from './IPODetailHeader.component';

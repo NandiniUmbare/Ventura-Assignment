@@ -1,0 +1,1 @@
+export {IpoDetailsPage} from './IpoDetailsPage.component';
