@@ -70,12 +70,12 @@ export const EventDate = styled.div`
 `;
 
 export const TimelineLine = styled.div`
-    width: 266px;
+    width: 304px;
     height: 2px;
     background-color: #4CAF50;
     position: absolute;
     top: 20px;
-    left: 106%;
+    left: 115%;
     transform: translate(-50%);
     @media screen and (max-width: 480px) {
         width: 2px;

@@ -18,7 +18,7 @@ export const AboutCompany = ({about, company}) => {
       </DesktopView>
       <MobileView>
         <h2>{company}</h2>
-        <p>{isExpanded ? about : `${about.substring(0, 100)}...`}</p>
+        <p>{isExpanded ? about : `${about && about.substring(0, 100)}...`}</p>
         <span style={{color: 'red'}} onClick={toggleExpand}>
           {isExpanded ? 'Read Less' : 'Read More'}
         </span>
